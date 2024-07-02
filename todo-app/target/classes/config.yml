@@ -1,0 +1,23 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard: INFO
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  user: root
+  password: Anand@#123
+  url: jdbc:mysql://localhost:3306/todo_app
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate.show_sql: true
+    hibernate.hbm2ddl.auto: update

@@ -1,0 +1,6 @@
+com\example\todo\TodoAppApplication$1.class
+com\example\todo\core\Task.class
+com\example\todo\TodoAppApplication.class
+com\example\todo\db\TaskDAO.class
+com\example\todo\TodoAppConfiguration.class
+com\example\todo\resources\TaskResource.class
